@@ -4,3 +4,4 @@ import path from "path";
 dotenv.config({ path: path.join(__dirname, "..", "src/.env") });
 
 export const BOT_PRIVATE_KEY: string = String(process.env["BOT_PRIVATE_KEY"]);
+export const INFURA_KEY: string = String(process.env["INFURA_PROJECT_ID"]);
